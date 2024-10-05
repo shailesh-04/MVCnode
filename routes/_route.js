@@ -1,6 +1,6 @@
 try {
 const router = require("express").Router();   
-const contraller = require('../controllers/controller.js');
+const contraller = require('../controllers/_controller.js');
 module.exports = (app)=>{
   router.get('/',contraller.index);
   app.use("/",router); 

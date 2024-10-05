@@ -5,12 +5,14 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
-    "test": "test"
+    "test": "test",
+    "make:controller":"node vendor/create-files.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
     "express": "^4.19.2",
     "mysql": "^2.18.1"
   },

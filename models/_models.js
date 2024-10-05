@@ -3,7 +3,7 @@ try{
   
 // -> Below Comment Remove When You Want To Use Database Connection  
 
-//const db = require("../config/db.config.js");
+//const db = require("../config/db.config");
 
 const Model = function(){}
 
